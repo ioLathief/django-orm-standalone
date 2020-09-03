@@ -34,6 +34,6 @@ How to use?
 + Generate a new `SECRET_KEY` for your settings.py.
 + Modify settings.py to add your database connection parameters.
 + Open "data/models.py". Modify existing model or add your own.
-+ Run `python manage.py makemigrations` to make migration scripts
++ Run `python manage.py makemigrations data` to make migration scripts
 + Run `python manage.py migrate` to create the tables and sync db changes. Feel free to use other manage.py commands available for django orm.
 + Every time you make changes to models or change db parameters, don't forget to run the migrations.
